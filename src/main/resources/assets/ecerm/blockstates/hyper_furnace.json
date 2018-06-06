@@ -1,0 +1,14 @@
+{
+	"variants" :
+	{
+		"burning=false,facing=north": { "model" : "eremc:hyper_furnace"},
+		"burning=false,facing=east": { "model" : "eremc:hyper_furnace", "y": 90},
+		"burning=false,facing=south": { "model" : "eremc:hyper_furnace", "y": 180},
+		"burning=false,facing=west": { "model" : "eremc:hyper_furnace", "y": 270},
+		
+		"burning=true,facing=north": { "model" : "eremc:lit_hyper_furnace"},
+		"burning=true,facing=east": { "model" : "eremc:lit_hyper_furnace", "y": 90},
+		"burning=true,facing=south": { "model" : "eremc:lit_hyper_furnace", "y": 180},
+		"burning=true,facing=west": { "model" : "eremc:lit_hyper_furnace", "y": 270}
+	}
+}

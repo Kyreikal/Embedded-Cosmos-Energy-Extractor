@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ecerm",
+  "name": "Embedded Cosmos Energy Remover",
+  "description": "A mod for generating massive amounts of power",
+  "version": "0.1",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Kyreikal"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

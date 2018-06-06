@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":["RRR","RSR","RRR"],
+   
+    "key":
+    {
+        "R":
+        {
+            "item": "minecraft:nether_star"
+        },
+        
+        "S":
+        {
+            "item": "ecerm:siltaran_crystal"
+        }
+    },
+   
+    "result":
+    {
+        "item": "ecerm:star_siltaran",
+        "count": 1
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":["RRR","RRR","RRR"],
+   
+    "key":
+    {
+        "R":
+        {
+            "item": "ecerm:siltaran_crystal"
+        }
+    },
+   
+    "result":
+    {
+        "item": "ecerm:siltaran_block",
+        "count": 1
+    }
+}

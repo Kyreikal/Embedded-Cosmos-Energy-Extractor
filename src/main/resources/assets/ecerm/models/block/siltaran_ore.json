@@ -1,0 +1,6 @@
+{
+	"parent": "block/cube_all",
+	"textures": { 
+		"all": "ecerm:blocks/siltaran_ore"
+	}
+}

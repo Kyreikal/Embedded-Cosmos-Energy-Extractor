@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+   
+    "ingredients":
+    [
+   	{
+		"item": "ecerm:siltaran_block"
+	}
+	],
+   
+    "result":
+    {
+        "item": "ecerm:siltaran_crystal",
+        "count": 9
+    }
+}

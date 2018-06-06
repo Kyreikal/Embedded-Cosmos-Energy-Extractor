@@ -1,0 +1,10 @@
+
+//Items
+item.siltaran_crystal.name=Siltaran Crystal
+item.star_siltaran.name=Siltaran Infused Star
+
+//Blocks
+block.siltaran_crystal.name=Siltaran Block
+
+//Creative Tabs
+itemGroup.ecermmaterialtab=ECER Material Tab
