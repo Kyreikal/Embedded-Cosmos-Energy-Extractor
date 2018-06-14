@@ -7,6 +7,9 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.World;
 
 public class SiltaranOre extends BlockBase
 {
@@ -35,4 +38,10 @@ public class SiltaranOre extends BlockBase
 		
 		return this.quantityDropped(rand)*(j+1);
 	}
+	
+	@Override
+	public ItemStack getItem(World worldIn, BlockPos pos, IBlockState state)
+    {
+        return new ItemStack(this);
+    }
 }

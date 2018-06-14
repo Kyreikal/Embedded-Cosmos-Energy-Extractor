@@ -3,6 +3,7 @@ package kyreikal.embeddedcosmosenergyremover;
 import kyreikal.embeddedcosmosenergyremover.proxy.CommonProxy;
 import kyreikal.embeddedcosmosenergyremover.tabs.ECERMMaterialTab;
 import kyreikal.embeddedcosmosenergyremover.util.Reference;
+import kyreikal.embeddedcosmosenergyremover.util.handlers.RegistryHandler;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -33,7 +34,7 @@ public class Main
 	@EventHandler
 	public static void Init(FMLInitializationEvent event)
 	{
-		
+		RegistryHandler.initRegistries();
 	}
 	
 	@EventHandler
